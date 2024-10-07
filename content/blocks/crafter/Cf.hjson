@@ -22,4 +22,9 @@
     },
     "power": 3.0
   }
+research: {
+      parent: test-drill
+      requirements: [
+          testItem/21
+ ]
 }
