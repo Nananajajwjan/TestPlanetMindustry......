@@ -1,6 +1,7 @@
 {
   "type": "GenericCrafter",
-  "name": "cooling-tower",
+  "localizedName: "sf",
+  "name": "xxx",
   "health": 400,
   "size": 3,
   "requirements": [
