@@ -1,0 +1,25 @@
+{
+  "type": "GenericCrafter",
+  "name": "cooling-tower",
+  "health": 400,
+  "size": 3,
+  "requirements": [
+    {"item": "titanium", "amount": 75},
+    {"item": "lead", "amount": 100}
+  ],
+  "craftTime": 90,
+  "outputItem": {
+    "item": "cryofluid",
+    "amount": 1
+  },
+  "consumes": {
+    "items": [
+      {"item": "titanium", "amount": 2}
+    ],
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.5
+    },
+    "power": 3.0
+  }
+}
