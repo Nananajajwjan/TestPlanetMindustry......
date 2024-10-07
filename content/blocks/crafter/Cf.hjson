@@ -5,20 +5,19 @@
   "health": 400,
   "size": 3,
   "requirements": [
-    {"item": "titanium", "amount": 75},
-    {"item": "lead", "amount": 100}
+    {"item": "testItem", "amount": 23}
   ],
   "craftTime": 90,
   "outputItem": {
-    "item": "cryofluid",
+    "item": "testItem",
     "amount": 1
   },
   "consumes": {
     "items": [
-      {"item": "titanium", "amount": 2}
+      {"item": "testItem", "amount": 2}
     ],
     "liquid": {
-      "liquid": "water",
+      "liquid": "testLiquid",
       "amount": 0.5
     },
     "power": 3.0
